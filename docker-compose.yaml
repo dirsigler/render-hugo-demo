@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  server:
+    container_name: hugo
+    image: klakegg/hugo:0.89.4-ext-alpine
+    entrypoint: hugo
+    command: ["server", "--buildDrafts", "--enableGitInfo", "--watch"]
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
