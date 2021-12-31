@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "https://render-hugo-demo.onrender.com"
 languageCode = "en-us"
 title = "Render Demo"
 theme = "minimal"
